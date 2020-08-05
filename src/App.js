@@ -19,14 +19,14 @@ function App() {
       <NavigationBar />
 
       <Layout>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+            <Route exact path="/" component={Home} />
 
-            <Route path={process.env.PUBLIC_URL + "/resume"} component={Resume} />
-            <Route path={process.env.PUBLIC_URL + "/projects"} component={Projects} />
-            <Route path={process.env.PUBLIC_URL + "/films"} component={Films} />
-            <Route path={process.env.PUBLIC_URL + "/about"} component={About} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/films" component={Films} />
+            <Route path="/about" component={About} />
 
             <Route component={NoMatch} />
           </Switch>

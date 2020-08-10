@@ -51,6 +51,7 @@ export default class NoMatch extends Component {
             <Styles>
 
                 <div className='main-header'>
+
                     <NavigationBar/>
 
                     <Row className="h-50 align-items-center">

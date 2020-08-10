@@ -19,6 +19,9 @@ const Styles = styled.div`
     font-size: 30px;
     font-family: Seaweed Script;
   }
+  .image {
+    padding-left: 10%;
+  }
   
  
 `;

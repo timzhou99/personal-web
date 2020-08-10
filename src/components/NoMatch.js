@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
+import FourOFourImg from '../assets/img/404.gif';
 
 import styled from "styled-components";
 
@@ -16,7 +17,7 @@ const Styles = styled.div`
     }
     
     .four_zero_four_bg {
-      background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+      background-image: url(${FourOFourImg});
       height: 400px;
       background-position: center;
     }

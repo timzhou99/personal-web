@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
   .navbar {
-    background-color: #222;
+    opacity: 0.85;
   }
   a, .navbar-brand, .navbar-nav .nav-link {
     color: #bbb;
@@ -19,12 +19,13 @@ const Styles = styled.div`
     font-size: 30px;
     font-family: Seaweed Script;
   }
+  
  
 `;
 
 export const NavigationBar = () => (
     <Styles>
-        <Navbar expand="lg">
+        <Navbar bg="dark" expand="lg" sticky="top">
             <Navbar.Brand href="/"><Image className="d-inline-block align-top" width="65" height="40" src={require("../assets/img/tz-logo.png")} />Timothy Zhou</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -32,6 +33,7 @@ export const NavigationBar = () => (
                     <Nav.Item class="px-auto"><Nav.Link href="/resume">Resume</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/projects">Projects</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/films">Films</Nav.Link></Nav.Item>
+                    <Nav.Item><Nav.Link href="/photography">Photography</Nav.Link></Nav.Item>
                     <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
                 </Nav>
             </Navbar.Collapse>

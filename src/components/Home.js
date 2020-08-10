@@ -10,16 +10,15 @@ import homeBkgImg from '../assets/img/home-bkg.JPG';
 import {NavigationBar} from "./NavigationBar";
 
 const Styles = styled.div`
-    .main-header {
-        background-image: url(${homeBkgImg});
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: 100%;
-        height:100vh;  /* responsive height */
-    }
+  .main-header {
+    background-image: url(${homeBkgImg});
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:100vh;  /* responsive height */
+  }
   h1 {
-    padding-left: 20%;
     padding-top: 40%;
     font-family: 'Spartan';
     font-weight: bold;
@@ -28,16 +27,21 @@ const Styles = styled.div`
   }
   h5 {
     text-align: center;
-    padding-left: 20%;
     padding-top: 5%;
     font-family: 'Spartan';
     color: aliceblue;
   }
   .nav {
-    padding-left: 20%;
     padding-top: 5%;
     font-family: 'Spartan';
   }
+  
+  @media only screen and (min-width: 768px) {
+    h1, .nav, h5 {
+      padding-left: 20%;
+    }
+  }
+  
 `;
 
 export default class NoMatch extends Component {
@@ -54,7 +58,7 @@ export default class NoMatch extends Component {
 
                     <NavigationBar/>
 
-                    <Row className="h-50 align-items-center">
+                    <Row className="h-50 align-items-center mx-auto">
                         <Col className="col-sm-4">
                             <Fade left>
                                 <h1>Timothy Zhou</h1>

@@ -2,6 +2,7 @@ import React from 'react';
 import {Image, Nav, Navbar} from 'react-bootstrap';
 import styled from 'styled-components';
 
+
 const Styles = styled.div`
   .navbar {
     opacity: 0.85;
@@ -16,8 +17,10 @@ const Styles = styled.div`
     }
   }
   .navbar-brand {
-    font-size: 30px;
-    font-family: Seaweed Script;
+    font-size: 25px;
+    font-family: Cantarell;
+    padding-left: 2.5vh;
+    
   }
   .image {
     padding-left: 10%;
@@ -29,7 +32,7 @@ const Styles = styled.div`
 export const NavigationBar = () => (
     <Styles>
         <Navbar fixed="top" bg="dark" expand="lg" >
-            <Navbar.Brand href="/"><Image className="d-inline-block align-top" width="65" height="40" src={require("../assets/img/tz-logo.png")} />Timothy Zhou</Navbar.Brand>
+            <Navbar.Brand href="/">TIMOTHY ZHOU</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">

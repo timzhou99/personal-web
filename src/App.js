@@ -25,7 +25,7 @@ class App extends Component {
             <Route path="/projects" component={Cooking}/>
             <Route path="/films" component={Cooking}/>
             <Route path="/photography" component={Cooking}/>
-            <Route path="/about" component={Cooking}/>
+            <Route path="/about" component={About}/>
 
             <Route component={NoMatch}/>
 

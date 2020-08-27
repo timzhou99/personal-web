@@ -17,10 +17,6 @@ import nih from '../assets/img/nih.png';
 
 const Styles = styled.div`
 
-    html {
-      scroll-behavior: smooth;
-    }
-
   .jumbotron {
     background-image: url(${nyc});
     background-repeat: no-repeat;
@@ -47,7 +43,6 @@ const Styles = styled.div`
     color: aliceblue;
     font-size: 300%;
     text-align: center;
-    padding-top: -200vh;
   }
   
   .container {

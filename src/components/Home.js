@@ -7,16 +7,21 @@ import Fade from 'react-reveal/Fade';
 import { Nav, Row, Col } from 'react-bootstrap';
 
 import homeBkgImg from '../assets/img/home-bkg.JPG';
+import homeBkgImgMobile from '../assets/img/home-bkg-mobile.JPG';
+
 import {NavigationBar} from "./NavigationBar";
 
 const Styles = styled.div`
   .main-header {
-    background-image: url(${homeBkgImg});
+    background-image: url(${homeBkgImgMobile});
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100%;
     height:100vh;  /* responsive height */
+  }
+  .col {
+    padding-top: 15vh;
   }
   h1 {
     padding-top: 40%;
@@ -37,6 +42,9 @@ const Styles = styled.div`
   }
   
   @media only screen and (min-width: 768px) {
+    .main-header {
+      background-image: url(${homeBkgImg});
+    }
     h1, .nav, h5 {
       padding-left: 20%;
     }

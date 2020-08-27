@@ -28,7 +28,7 @@ const Styles = styled.div`
 
 export const NavigationBar = () => (
     <Styles>
-        <Navbar bg="dark" expand="lg" sticky="top">
+        <Navbar fixed="top" bg="dark" expand="lg" >
             <Navbar.Brand href="/"><Image className="d-inline-block align-top" width="65" height="40" src={require("../assets/img/tz-logo.png")} />Timothy Zhou</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

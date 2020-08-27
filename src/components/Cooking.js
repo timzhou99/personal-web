@@ -10,7 +10,7 @@ const Styles = styled.div`
   }
   h2 {
     text-align: center;
-    padding-top: 5%;
+    padding-top: 10%;
     font-family: 'Spartan';
   }
   h5 {
@@ -33,9 +33,9 @@ export default class NoMatch extends Component {
                 <NavigationBar />
 
                 <body>
-                <h2>Cooking up something good, stay tuned!</h2>
-                <h5>- Timothy Zhou</h5>
-                <Image className="img-fluid rounded mx-auto d-block" src={require("../assets/img/cooking.gif")} fluid />
+                    <h2>Cooking up something good, stay tuned!</h2>
+                    <h5>- Timothy Zhou</h5>
+                    <Image className="img-fluid rounded mx-auto d-block" src={require("../assets/img/cooking.gif")} fluid />
                 </body>
             </Styles>
         )

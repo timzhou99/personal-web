@@ -125,8 +125,8 @@ export default class Resume extends Component {
                                 <h5>Project Management Intern</h5>
                                 <h6>Bethesda, MD &nbsp; |  &nbsp; May 2019 - Sep 2019</h6>
                                 <p>
-                                    As a project management intern at FHL Health, I managed two biostatistical studies and the development of
-                                    one internal product. For the two clinical studies, I managed a team of statistical programmers
+                                    As a project management intern at FHL Health, I managed two clinical studies and the development of
+                                    one internal product. For the two clinical studies, I managed a team of  programmers
                                     to develop and compile complete clinical trial submission packages for the FDA under budget.
                                     In addition, I coordinated and managed the development of an internal automated case report form generator
                                     that decreased generation times by 300%.

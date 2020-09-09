@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "570364a19c59fdaf64ec0ab4164294bd",
+    "revision": "b00a6691dc83f92c21d57f0be0892190",
     "url": "/index.html"
   },
   {
-    "revision": "531021e39b9f0c96498d",
+    "revision": "55d01b519e33d4dab6a1",
     "url": "/static/css/main.e5637fe6.chunk.css"
   },
   {
-    "revision": "542b270787277a1a9e31",
-    "url": "/static/js/2.b46a783e.chunk.js"
+    "revision": "0d68277a4a189d84a8e2",
+    "url": "/static/js/2.353b2f04.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.b46a783e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.353b2f04.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "531021e39b9f0c96498d",
-    "url": "/static/js/main.1b9bad3e.chunk.js"
+    "revision": "55d01b519e33d4dab6a1",
+    "url": "/static/js/main.cbf4c859.chunk.js"
   },
   {
     "revision": "e0ca6d224cc6f7e6205f",
@@ -44,8 +44,32 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/essential-soft.cd3f297a.png"
   },
   {
+    "revision": "8f3f3a9232c16d0f3555e8d42a71eccf",
+    "url": "/static/media/events-create.8f3f3a92.PNG"
+  },
+  {
+    "revision": "f8d57aa2bc589dadfbe13dbadefa4387",
+    "url": "/static/media/events-eventID.f8d57aa2.PNG"
+  },
+  {
+    "revision": "73dc97c31291a349ca3019e104bdfa77",
+    "url": "/static/media/events-hosting.73dc97c3.PNG"
+  },
+  {
+    "revision": "1f67b542fc9635611be63c71fa922f86",
+    "url": "/static/media/events-manage.1f67b542.PNG"
+  },
+  {
+    "revision": "25c6ac73d0fbda5c004debff2e0b9dca",
+    "url": "/static/media/events.25c6ac73.PNG"
+  },
+  {
     "revision": "69897f5d16ac064078f09bfedc671c9e",
     "url": "/static/media/fhl-health.69897f5d.png"
+  },
+  {
+    "revision": "f925affcee33bbf196abb78f798100c8",
+    "url": "/static/media/freetix-mockup.f925affc.png"
   },
   {
     "revision": "3e52abff9b990c1aaa5b2bc91e0a1100",
@@ -66,5 +90,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b9f6a69d36e3a9179e9b2c80ba10e5ed",
     "url": "/static/media/nyc-wallpaper.b9f6a69d.jpg"
+  },
+  {
+    "revision": "f9491a49122c63c7c1dc64e540e5d0d2",
+    "url": "/static/media/projects.f9491a49.jpg"
+  },
+  {
+    "revision": "94c609e2036d68fb9c96f65c0745566c",
+    "url": "/static/media/sitemap.94c609e2.PNG"
+  },
+  {
+    "revision": "621d825886a4802735c9a40aa4597647",
+    "url": "/static/media/tickets-ticketID.621d8258.PNG"
+  },
+  {
+    "revision": "1c1b5bf9d080f01bbb55150e45e6bb63",
+    "url": "/static/media/tickets.1c1b5bf9.PNG"
   }
 ]);

@@ -34,6 +34,7 @@ const Styles = styled.div`
     color: aliceblue;
     min-height: 50vh;
     width: 100%;
+    padding-top: 10vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,7 +110,9 @@ export default class Resume extends Component {
                                     Amid the Coronavirus pandemic, I led a team of fellow NYU undergraduates to create
                                     an entrepreneurial venture to help solve an issue that the COVID-19 pandemic has
                                     brought onto society. As a team lead, I spear-headed and managed the concept-to-prototype of a job search
-                                    platform that simplifies and personalizes the job application process for students.
+                                    platform that simplifies and personalizes the job application process for students. In addition, I
+                                    conducted market research and analyzed data from over 150 survey responses that allowed the product
+                                    team to develop a deeper understanding of the target customer's issues, pains, and desires.
                                 </p>
                             </Col>
                         </Row>
@@ -128,8 +131,9 @@ export default class Resume extends Component {
                                     As a project management intern at FHL Health, I managed two clinical studies and the development of
                                     one internal product. For the two clinical studies, I managed a team of  programmers
                                     to develop and compile complete clinical trial submission packages for the FDA under budget.
-                                    In addition, I coordinated and managed the development of an internal automated case report form generator
-                                    that decreased generation times by 300%.
+                                    Furthermore, I coordinated and managed the development of an internal automated case report form generator
+                                    that decreased generation times by 300%. I also prepared and presented 2 RFQs that provided price
+                                    estimations and project phases which resulted in over $300,000 worth of contracts.
 
                                 </p>
                             </Col>
@@ -166,10 +170,11 @@ export default class Resume extends Component {
                                 <h5>Marketing Analyst Intern</h5>
                                 <h6>Shanghai, CN &nbsp; |  &nbsp; Jun 2017 - Aug 2017</h6>
                                 <p>
-                                    As a marketing analyst intern at Ipsos, I collaborated alongside the automotive team on
-                                    projects for multiple OEMs to help identify their market segments and value propositions.
-                                    I also evaluated aspects of competing telematics systems in contrast to the client's system through
-                                    user focus groups and market research in order to identify features for redesign and implementation.
+                                    As a marketing analyst intern at Ipsos, I analyzed data from a focus group study on
+                                    a client's telematic system that resulted in the change of 10 of its feature definitions.
+                                    In addition, I prepared and presented an alysis report on telematic systems by drawing
+                                    comparisons between competing products based on its features, unique qualities, prices,
+                                    and preferences; allowing the client to optimize its offerings relative to its competitors.
                                 </p>
                             </Col>
                         </Row>

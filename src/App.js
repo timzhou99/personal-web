@@ -8,6 +8,7 @@ import Films from './components/Films';
 import About from './components/About';
 import NoMatch from './components/NoMatch';
 import Cooking from './components/Cooking';
+import FreeTix from './components/FreeTix';
 
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
@@ -22,10 +23,11 @@ class App extends Component {
             <Route exact path="/" component={Home}/>
 
             <Route path="/resume" component={Resume}/>
-            <Route path="/projects" component={Cooking}/>
+            <Route path="/projects" component={Projects}/>
             <Route path="/films" component={Cooking}/>
             <Route path="/photography" component={Cooking}/>
             <Route path="/about" component={About}/>
+            <Route path="/freetix" component={FreeTix}/>
 
             <Route component={NoMatch}/>
 

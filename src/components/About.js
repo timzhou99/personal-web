@@ -223,9 +223,9 @@ export default class About extends Component {
                         </Row>
                         <Row>
                             <Col className="text-center">
-                                <SocialIcon className="" url="https://linkedin.com/in/tim-zhou" />
-                                <SocialIcon className="icons" url="https://github.com/timzhou99" />
-                                <SocialIcon className="icons" url="https://www.instagram.com/timzhou99" />
+                                <SocialIcon className="" url="https://linkedin.com/in/tim-zhou" target="_blank"/>
+                                <SocialIcon className="icons" url="https://github.com/timzhou99" target="_blank"/>
+                                <SocialIcon className="icons" url="https://www.instagram.com/timzhou99" target="_blank"/>
                             </Col>
                         </Row>
 

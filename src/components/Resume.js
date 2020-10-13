@@ -14,6 +14,7 @@ import fhlHealth from '../assets/img/fhl-health.png';
 import essentialSoft from '../assets/img/essential-soft.png';
 import ipsos from '../assets/img/ipsos.png';
 import nih from '../assets/img/nih.png';
+import ncino from '../assets/img/ncino.png';
 
 const Styles = styled.div`
 
@@ -98,6 +99,26 @@ export default class Resume extends Component {
                 <body className="bg-light">
 
                     <Container id="latest-experience" className="bg-light">
+                        <Row>
+                            <Col sm={4} className="h-100 bg-light align-self-center">
+                                <Image src={ncino} fluid></Image>
+                            </Col>
+                            <Col sm={8} className="my-auto detail">
+                                <h4>nCino</h4>
+                                <h5>Product Management Intern</h5>
+                                <h6>Wilmington, NC &nbsp; |  &nbsp; Oct 2020 - Present</h6>
+                                <p>
+                                    As a product management intern at nCino, I will be helping to set the product vision, strategy,
+                                    development, and execution to establish and grow nCino's world-class Bank Operating System. In addition, I will
+                                    be leading discussions with all stakeholders to gather, prioritize, and communicate requirements for new
+                                    commercial product features. Furthermore, I will be collaborating with product designers to ensure any unique
+                                    functionality is documented and designed to be accessible for all users.
+                                </p>
+                            </Col>
+                        </Row>
+                    </Container>
+
+                    <Container id="" className="bg-light">
                         <Row>
                             <Col sm={4} className="h-100 bg-light align-self-center">
                                 <Image src={nyuStern} fluid></Image>

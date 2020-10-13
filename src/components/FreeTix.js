@@ -172,6 +172,16 @@ export default class FreeTix extends Component {
 
                             <br />
 
+                            <h3>Languages & Technologies Used</h3>
+                            <ul>
+                                <li>MongoDB</li>
+                                <li>ExpressJS</li>
+                                <li>NodeJS</li>
+                                <li>EJS (Embedded JavaScript templates)</li>
+                                <li>Passport.js</li>
+                                <li>bcrypt</li>
+                            </ul>
+
                             <h3>Data Models</h3>
 
                             <p>The application will store Users, Events, and Tickets</p>

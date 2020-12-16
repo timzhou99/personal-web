@@ -15,6 +15,7 @@ import essentialSoft from '../assets/img/essential-soft.png';
 import ipsos from '../assets/img/ipsos.png';
 import nih from '../assets/img/nih.png';
 import ncino from '../assets/img/ncino.png';
+import fitvio from '../assets/img/fitvio.png';
 
 const Styles = styled.div`
 
@@ -98,7 +99,28 @@ export default class Resume extends Component {
 
                 <body className="bg-light">
 
-                    <Container id="latest-experience" className="bg-light">
+                <Container id="latest-experience" className="bg-light">
+                    <Row>
+                        <Col sm={4} className="h-100 bg-light align-self-center">
+                            <Image src={fitvio} fluid></Image>
+                        </Col>
+                        <Col sm={8} className="my-auto detail">
+                            <h4>Fitvio</h4>
+                            <h5>Co-Founder, Head of Product</h5>
+                            <h6>New York, NY &nbsp; |  &nbsp; Sep 2020 - Present</h6>
+                            <p>
+                                As one of the founding members and the Head of Product, I lead and manage a cross-functional
+                                team of 9 comprising of engineers, marketers, and product designers in developing a social media
+                                platform catered to the fitness industry. To date, I have pitched to 2 school-sponsored innovation
+                                funds which resulted in over $1,000 grants to invest in the startup. Furthermore, we were accepted into
+                                a 2-week startup bootcamp backed by the NYU Entrepreneurship Institute which led the team to
+                                pivot twice in terms of our target segment.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
+
+                <Container id="" className="bg-light">
                         <Row>
                             <Col sm={4} className="h-100 bg-light align-self-center">
                                 <Image src={ncino} fluid></Image>
@@ -106,13 +128,13 @@ export default class Resume extends Component {
                             <Col sm={8} className="my-auto detail">
                                 <h4>nCino</h4>
                                 <h5>Product Management Intern</h5>
-                                <h6>Wilmington, NC &nbsp; |  &nbsp; Oct 2020 - Present</h6>
+                                <h6>Wilmington, NC &nbsp; |  &nbsp; Oct 2020 - Dec 2020</h6>
                                 <p>
-                                    As a product management intern at nCino, I will be helping to set the product vision, strategy,
-                                    development, and execution to establish and grow nCino's world-class Bank Operating System. In addition, I will
-                                    be leading discussions with all stakeholders to gather, prioritize, and communicate requirements for new
-                                    commercial product features. Furthermore, I will be collaborating with product designers to ensure any unique
-                                    functionality is documented and designed to be accessible for all users.
+                                    As a product management intern at nCino, I prioritized product features for the upcoming
+                                    Fall release by defining epics and stories. In addition, I drove agile development on a platform
+                                    feature responsible for handling over $3.2 trillion worth of assets across 290+ financial institutions.
+                                    Furthermore, I helped spearhead the construction and development of an internal testing specification structure
+                                    for the use of QA engineers when performing the yearly accessibility audit, which increased audit efficiency by 75%.
                                 </p>
                             </Col>
                         </Row>

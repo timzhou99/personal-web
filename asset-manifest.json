@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.e5637fe6.chunk.css",
-    "main.js": "/static/js/main.f464ca3c.chunk.js",
-    "main.js.map": "/static/js/main.f464ca3c.chunk.js.map",
+    "main.js": "/static/js/main.e32a82c9.chunk.js",
+    "main.js.map": "/static/js/main.e32a82c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.de46f35b.js",
     "runtime-main.js.map": "/static/js/runtime-main.de46f35b.js.map",
-    "static/js/2.ab778513.chunk.js": "/static/js/2.ab778513.chunk.js",
-    "static/js/2.ab778513.chunk.js.map": "/static/js/2.ab778513.chunk.js.map",
+    "static/js/2.7d195049.chunk.js": "/static/js/2.7d195049.chunk.js",
+    "static/js/2.7d195049.chunk.js.map": "/static/js/2.7d195049.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.7c308b1e73664f805e30e998a8d5addb.js": "/precache-manifest.7c308b1e73664f805e30e998a8d5addb.js",
+    "precache-manifest.17292ff93dd60c79b8e1b838dd0e1e24.js": "/precache-manifest.17292ff93dd60c79b8e1b838dd0e1e24.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.e5637fe6.chunk.css.map": "/static/css/main.e5637fe6.chunk.css.map",
-    "static/js/2.ab778513.chunk.js.LICENSE.txt": "/static/js/2.ab778513.chunk.js.LICENSE.txt",
+    "static/js/2.7d195049.chunk.js.LICENSE.txt": "/static/js/2.7d195049.chunk.js.LICENSE.txt",
     "static/media/404.gif": "/static/media/404.e4301010.gif",
     "static/media/Timothy_Zhou_Headshot.jpg": "/static/media/Timothy_Zhou_Headshot.a7555d8b.jpg",
     "static/media/about-bkg.jpg": "/static/media/about-bkg.b5f364a3.jpg",
@@ -23,6 +23,8 @@
     "static/media/events-manage.PNG": "/static/media/events-manage.1f67b542.PNG",
     "static/media/events.PNG": "/static/media/events.25c6ac73.PNG",
     "static/media/fhl-health.png": "/static/media/fhl-health.69897f5d.png",
+    "static/media/fitvio.png": "/static/media/fitvio.c8b95abd.png",
+    "static/media/flexbot.png": "/static/media/flexbot.39484e3f.png",
     "static/media/freetix-mockup.png": "/static/media/freetix-mockup.f925affc.png",
     "static/media/home-bkg-mobile.JPG": "/static/media/home-bkg-mobile.3e52abff.JPG",
     "static/media/home-bkg.JPG": "/static/media/home-bkg.8efa6174.JPG",
@@ -32,12 +34,18 @@
     "static/media/projects.jpg": "/static/media/projects.f9491a49.jpg",
     "static/media/sitemap.PNG": "/static/media/sitemap.94c609e2.PNG",
     "static/media/tickets-ticketID.PNG": "/static/media/tickets-ticketID.621d8258.PNG",
-    "static/media/tickets.PNG": "/static/media/tickets.1c1b5bf9.PNG"
+    "static/media/tickets.PNG": "/static/media/tickets.1c1b5bf9.PNG",
+    "static/media/wlb.PNG": "/static/media/wlb.96f3e861.PNG",
+    "static/media/wlb2.PNG": "/static/media/wlb2.d4be1555.PNG",
+    "static/media/wlj.PNG": "/static/media/wlj.e85c834b.PNG",
+    "static/media/wll.PNG": "/static/media/wll.f6c5a174.PNG",
+    "static/media/wlr.PNG": "/static/media/wlr.dacf1c1b.PNG",
+    "static/media/wlw.PNG": "/static/media/wlw.05f487e8.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.de46f35b.js",
-    "static/js/2.ab778513.chunk.js",
+    "static/js/2.7d195049.chunk.js",
     "static/css/main.e5637fe6.chunk.css",
-    "static/js/main.f464ca3c.chunk.js"
+    "static/js/main.e32a82c9.chunk.js"
   ]
 }

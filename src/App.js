@@ -9,6 +9,7 @@ import About from './components/About';
 import NoMatch from './components/NoMatch';
 import Cooking from './components/Cooking';
 import FreeTix from './components/FreeTix';
+import FlexBot from './components/FlexBot';
 
 import { Layout } from './components/Layout';
 import { NavigationBar } from './components/NavigationBar';
@@ -28,6 +29,7 @@ class App extends Component {
             <Route path="/photography" component={Cooking}/>
             <Route path="/about" component={About}/>
             <Route path="/freetix" component={FreeTix}/>
+            <Route path="/flexbot" component={FlexBot}/>
 
             <Route component={NoMatch}/>
 

@@ -8,6 +8,7 @@ import {Link} from "react-scroll";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowCircleDown} from "@fortawesome/free-solid-svg-icons";
 
+import flexbot from "../assets/img/flexbot.png";
 import freeTix from "../assets/img/freetix-mockup.png";
 import projects from "../assets/img/projects.jpg";
 
@@ -28,6 +29,10 @@ const Styles = styled.div`
     
     .freetix {
         background-image: url(${freeTix});
+    }
+    
+    .flexbot {
+        background-image: url(${flexbot});
     }
     
     h1 {
@@ -135,7 +140,24 @@ export default class Projects extends Component {
 
                 </Jumbotron>
 
-                <Jumbotron id="most-recent" className="jumbotron-fluid freetix">
+                <Jumbotron id="most-recent" className="jumbotron-fluid flexbot">
+
+                    <Fade bottom>
+
+                        <div className="header">
+                            <h2>FlexBot</h2>
+                            <h3>A Queue Management Discord Bot</h3>
+
+                            <Button className="" size="lg" variant="primary" href="/flexbot">View Project Page</Button>
+                        </div>
+
+                        {/*<Link class="arrow-down link" to="about" smooth={true}><FontAwesomeIcon icon={faArrowCircleDown}/></Link>*/}
+
+                    </Fade>
+
+                </Jumbotron>
+
+                <Jumbotron id="" className="jumbotron-fluid freetix">
 
                     <Fade bottom>
 

@@ -110,7 +110,7 @@ export default class About extends Component {
                     <Fade bottom>
 
                         <div className="header">
-                            <h1>A tech junkie who's Detail-Oriented, Innovative, & Analytically Focused</h1>
+                            <h1>A tech fanatic who's Detail-Oriented, Innovative, & Analytically Focused</h1>
                         </div>
 
                         <Link class="arrow-down link" to="about-me" smooth={true}><FontAwesomeIcon icon={faArrowCircleDown}/></Link>

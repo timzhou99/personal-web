@@ -15,7 +15,7 @@ import essentialSoft from '../assets/img/essential-soft.png';
 import ipsos from '../assets/img/ipsos.png';
 import nih from '../assets/img/nih.png';
 import ncino from '../assets/img/ncino.png';
-import fitvio from '../assets/img/fitvio.png';
+import amex from '../assets/img/amex.png';
 
 const Styles = styled.div`
 
@@ -102,19 +102,16 @@ export default class Resume extends Component {
                 <Container id="latest-experience" className="bg-light">
                     <Row>
                         <Col sm={4} className="h-100 bg-light align-self-center">
-                            <Image src={fitvio} fluid></Image>
+                            <Image src={amex} fluid></Image>
                         </Col>
                         <Col sm={8} className="my-auto detail">
-                            <h4>Fitvio</h4>
-                            <h5>Co-Founder, Head of Product</h5>
-                            <h6>New York, NY &nbsp; |  &nbsp; Sep 2020 - Present</h6>
+                            <h4>American Express</h4>
+                            <h5>Product Analyst</h5>
+                            <h6>New York, NY &nbsp; |  &nbsp; Jun 2021 - Present</h6>
                             <p>
-                                As one of the founding members and the Head of Product, I lead and manage a cross-functional
-                                team of 9 comprising of engineers, marketers, and product designers in developing a social media
-                                platform catered to the fitness industry. To date, I have pitched to 2 school-sponsored innovation
-                                funds which resulted in over $1,000 grants to invest in the startup. Furthermore, we were accepted into
-                                a 2-week startup bootcamp backed by the NYU Entrepreneurship Institute which led the team to
-                                pivot twice in terms of our target segment.
+                                As a product analyst at American Express, I help discover, solution, and prioritize product features for the acquisition journeys
+                                in the United Kingdom and Norway markets. In addition, as a product owner, I help lead an agile and data-driven team of seven to 
+                                facilitate iteration and innovation to provide the best user experience for our customers.
                             </p>
                         </Col>
                     </Row>

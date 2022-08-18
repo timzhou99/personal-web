@@ -34,11 +34,12 @@ const Styles = styled.div`
         font-weight: bold;
         text-align: center;
         color: aliceblue;
+        min-height: 50vh;
+        width: 100%;
+        padding-top: 10vh;
         display: flex;
-        min-height: 30vh;
         align-items: center;
         justify-content: center;
-        font-size: 4.5vh;
     }
     
     .arrow-down {
@@ -109,10 +110,7 @@ export default class About extends Component {
 
                     <Fade bottom>
 
-                        <div className="header">
-                            <h1>A tech fanatic who's Detail-Oriented, Innovative, & Analytically Focused</h1>
-                        </div>
-
+                        <h1 class="text-center">here's who I am</h1>
                         <Link class="arrow-down link" to="about-me" smooth={true}><FontAwesomeIcon icon={faArrowCircleDown}/></Link>
 
                     </Fade>
@@ -128,84 +126,32 @@ export default class About extends Component {
                                 <h2>About Tim</h2>
                                 <br />
                                 <p>
-                                    I am currently a senior at NYU Stern studying Finance and Management with a minor
-                                    in Computer Science. Throughout my years of study and internships, I have gained experience in a wide
-                                    range of disciplines including entrepreneurship, engineering, data analytics, financial modeling, and
+                                    Tim is currently an Associate Product Manager at American Express working on the digital card acquisition experiences 
+                                    for the United Kingdom and Norway, Consumer and Small Business markets. 
+                                    Throughout his years of study and experiences, he has gained an understanding in a wide
+                                    range of disciplines including entrepreneurship, software engineering, data analytics, financial modeling, and
                                     product development.
                                 </p>
                                 <p>
-                                    As a former product lead, software engineer, project manager, and marketing analyst, I understand
-                                    what it means to build products that are high-quality, cohesive, and scalable. I have built
+                                    As a former product lead, software engineer, project manager, and marketing analyst, he understands
+                                    what it means to build products that are high-quality, cohesive, and scalable. He has built
                                     awareness for the small details, which is helpful for working through requirements, visualizations,
-                                    models, and prototypes with cross-functional team members. Therefore, I feel at ease working with data analysts,
-                                    software engineers, creatives, and other business-oriented individuals. I can appropriately approach problem-solving
+                                    models, and prototypes with cross-functional team members. Therefore, he feels at ease working with data analysts,
+                                    software engineers, creatives, and other business-oriented individuals. Tim can appropriately approach problem-solving
                                     and actively maintain a holistic vision through various phases.
                                 </p>
                                 <p>
-                                    These experiences have given me unique insights into the
-                                    product lifecycle and have allowed me to think through the entire customer journey while
-                                    challenging my own assumptions.
+                                    These experiences have given him unique insights into the
+                                    product lifecycle and have allowed him to think through the entire customer journey while
+                                    challenging his own assumptions.
                                 </p>
 
                                 <br />
 
                             </Col>
                             <Col>
+                                <br /> <br /> 
                                 <Image src={timZhou} fluid></Image>
-                            </Col>
-                        </Row>
-
-                        <Row>
-                            <Col>
-                                <h2>Skills</h2>
-                                <h5>Notable Competencies</h5>
-                                <Button className="mr-1 mb-1" variant="primary">Problem Solving</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Product Lifecycle</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Analytics & Business Intelligence</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Data Analysis</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Data Visualization</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Market Research</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Engineering Principles</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Digital Marketing</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Design & UX Principles</Button>
-                                <Button className="mr-1 mb-1" variant="primary">SaaS Principles</Button>
-
-                                <h5>Analytics & Data Tools</h5>
-                                <Button className="mr-1 mb-1" variant="primary">Python</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Excel</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Google Sheets</Button>
-                                <Button className="mr-1 mb-1" variant="primary">SAS</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Google Analytics</Button>
-
-                                <h5>Product & Creative Tools</h5>
-                                <Button className="mr-1 mb-1" variant="primary">Adobe XD</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Adobe Photoshop</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Adobe Illustrator</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Adobe Premiere Pro</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Adobe After Effects</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Canva</Button>
-
-                                <h5>Marketing & Organizational Tools</h5>
-                                <Button className="mr-1 mb-1" variant="primary">G Suite</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Slack</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Discord</Button>
-                                <Button className="mr-1 mb-1" variant="primary">ServiceNow</Button>
-                                <Button className="mr-1 mb-1" variant="primary">SCRUM & Agile Methodology</Button>
-
-                                <h5>Languages & Syntax</h5>
-                                <Button className="mr-1 mb-1" variant="primary">SQL (MySQL)</Button>
-                                <Button className="mr-1 mb-1" variant="primary">MongoDB</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Python</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Javascript</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Java</Button>
-                                <Button className="mr-1 mb-1" variant="primary">HTML/CSS</Button>
-                                <Button className="mr-1 mb-1" variant="primary">ReactJS</Button>
-                                <Button className="mr-1 mb-1" variant="primary">NodeJS</Button>
-                                <Button className="mr-1 mb-1" variant="primary">ExpressJS</Button>
-                                <Button className="mr-1 mb-1" variant="primary">Git</Button>
-                                <Button className="mr-1 mb-1" variant="primary">RegEx</Button>
-                                <Button className="mr-1 mb-1" variant="primary">JSON</Button>
-
                             </Col>
                         </Row>
 

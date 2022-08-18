@@ -106,12 +106,12 @@ export default class Resume extends Component {
                         </Col>
                         <Col sm={8} className="my-auto detail">
                             <h4>American Express</h4>
-                            <h5>Product Analyst</h5>
+                            <h5>Associate Product Manager</h5>
                             <h6>New York, NY &nbsp; |  &nbsp; Jun 2021 - Present</h6>
                             <p>
-                                As a product analyst at American Express, I help discover, solution, and prioritize product features for the acquisition journeys
-                                in the United Kingdom and Norway markets. In addition, as a product owner, I help lead an agile and data-driven team of seven to 
-                                facilitate iteration and innovation to provide the best user experience for our customers.
+                                As an Associate Product Manager at American Express, I help discover, solution, and prioritize product features for the digital acquisition journeys
+                                in the United Kingdom and Norway, Consumer and Small Business markets. In addition, as a product owner, I lead an agile and data-driven team of 11 to 
+                                facilitate iteration and innovation to provide the best user experience for our customers and prospects.
                             </p>
                         </Col>
                     </Row>

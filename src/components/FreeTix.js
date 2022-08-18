@@ -106,6 +106,7 @@ const Styles = styled.div`
     .jumButton {
     
       margin-right: 1vw;
+      margin-bottom: 20px;
     
     }
     
@@ -140,7 +141,7 @@ export default class FreeTix extends Component {
                             <h2>An Event Management and Ticketing Platform</h2>
 
                             <Button className="jumButton" size="lg" variant="warning" href="https://github.com/timzhou99/freetix-app" target="_blank">Source Code</Button>
-                            <Button size="lg" variant="success" href="https://freetix.herokuapp.com/" target="_blank">Live Demo</Button>
+                            <Button size="lg" variant="success" href="https://freetix.herokuapp.com/" target="_blank" className="jumButton">Live Demo</Button>
                         </div>
 
                         <Link class="arrow-down link" to="about" smooth={true}><FontAwesomeIcon icon={faArrowCircleDown}/></Link>

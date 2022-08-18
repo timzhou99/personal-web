@@ -101,10 +101,10 @@ export default class Resume extends Component {
 
                 <Container id="latest-experience" className="bg-light">
                     <Row>
-                        <Col sm={4} className="h-100 bg-light align-self-center">
+                        <Col className="h-100 bg-light align-self-center">
                             <Image src={amex} fluid></Image>
                         </Col>
-                        <Col sm={8} className="my-auto detail">
+                        <Col sm={{ span: 8, offset: 1 }}>
                             <h4>American Express</h4>
                             <h5>Associate Product Manager</h5>
                             <h6>New York, NY &nbsp; |  &nbsp; Jun 2021 - Present</h6>
@@ -118,129 +118,129 @@ export default class Resume extends Component {
                 </Container>
 
                 <Container id="" className="bg-light">
-                        <Row>
-                            <Col sm={4} className="h-100 bg-light align-self-center">
-                                <Image src={ncino} fluid></Image>
-                            </Col>
-                            <Col sm={8} className="my-auto detail">
-                                <h4>nCino</h4>
-                                <h5>Product Management Intern</h5>
-                                <h6>Wilmington, NC &nbsp; |  &nbsp; Oct 2020 - Dec 2020</h6>
-                                <p>
-                                    As a product management intern at nCino, I prioritized product features for the upcoming
-                                    Fall release by defining epics and stories. In addition, I drove agile development on a platform
-                                    feature responsible for handling over $3.2 trillion worth of assets across 290+ financial institutions.
-                                    Furthermore, I helped spearhead the construction and development of an internal testing specification structure
-                                    for the use of QA engineers when performing the yearly accessibility audit, which increased audit efficiency by 75%.
-                                </p>
-                            </Col>
-                        </Row>
-                    </Container>
+                    <Row>
+                        <Col className="h-100 bg-light align-self-center">
+                            <Image src={ncino} fluid></Image>
+                        </Col>
+                        <Col sm={{ span: 8, offset: 1 }}>
+                            <h4>nCino</h4>
+                            <h5>Product Management Intern</h5>
+                            <h6>Wilmington, NC &nbsp; |  &nbsp; Oct 2020 - Dec 2020</h6>
+                            <p>
+                                As a product management intern at nCino, I prioritized product features for the upcoming
+                                Fall release by defining epics and stories. In addition, I drove agile development on a platform
+                                feature responsible for handling over $3.2 trillion worth of assets across 290+ financial institutions.
+                                Furthermore, I helped spearhead the construction and development of an internal testing specification structure
+                                for the use of QA engineers when performing the yearly accessibility audit, which increased audit efficiency by 75%.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
 
-                    <Container id="" className="bg-light">
-                        <Row>
-                            <Col sm={4} className="h-100 bg-light align-self-center">
-                                <Image src={nyuStern} fluid></Image>
-                            </Col>
-                            <Col sm={8} className="my-auto detail">
-                                <h4>Coronavirus Response Fellowship</h4>
-                                <h5>Team Lead</h5>
-                                <h6>New York, NY &nbsp; |  &nbsp; Jun 2020 - Aug 2020</h6>
-                                <p>
-                                    Amid the Coronavirus pandemic, I led a team of fellow NYU undergraduates to create
-                                    an entrepreneurial venture to help solve an issue that the COVID-19 pandemic has
-                                    brought onto society. As a team lead, I spear-headed and managed the concept-to-prototype of a job search
-                                    platform that simplifies and personalizes the job application process for students. In addition, I
-                                    conducted market research and analyzed data from over 150 survey responses that allowed the product
-                                    team to develop a deeper understanding of the target customer's issues, pains, and desires.
-                                </p>
-                            </Col>
-                        </Row>
-                    </Container>
+                <Container id="" className="bg-light">
+                    <Row>
+                        <Col className="h-100 bg-light align-self-center">
+                            <Image src={nyuStern} fluid></Image>
+                        </Col>
+                        <Col sm={{ span: 8, offset: 1 }}>
+                            <h4>Coronavirus Response Fellowship</h4>
+                            <h5>Team Lead</h5>
+                            <h6>New York, NY &nbsp; |  &nbsp; Jun 2020 - Aug 2020</h6>
+                            <p>
+                                Amid the Coronavirus pandemic, I led a team of fellow NYU undergraduates to create
+                                an entrepreneurial venture to help solve an issue that the COVID-19 pandemic has
+                                brought onto society. As a team lead, I spear-headed and managed the concept-to-prototype of a job search
+                                platform that simplifies and personalizes the job application process for students. In addition, I
+                                conducted market research and analyzed data from over 150 survey responses that allowed the product
+                                team to develop a deeper understanding of the target customer's issues, pains, and desires.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
 
-                    <Container id="" className="bg-light">
-                        <Row>
-                            <Col sm={4} className="h-100 bg-light align-self-center">
-                                <Image src={fhlHealth} fluid></Image>
-                            </Col>
-                            <Col sm={8} className="my-auto detail">
-                                <h4>FHL Health, LLC</h4>
-                                <h5>Project Management Intern</h5>
-                                <h6>Bethesda, MD &nbsp; |  &nbsp; May 2019 - Sep 2019</h6>
-                                <p>
-                                    As a project management intern at FHL Health, I managed two clinical studies and the development of
-                                    one internal product. For the two clinical studies, I managed a team of  programmers
-                                    to develop and compile complete clinical trial submission packages for the FDA under budget.
-                                    Furthermore, I coordinated and managed the development of an internal automated case report form generator
-                                    that decreased generation times by 300%. I also prepared and presented 2 RFQs that provided price
-                                    estimations and project phases which resulted in over $300,000 worth of contracts.
+                <Container id="" className="bg-light">
+                    <Row>
+                        <Col className="h-100 bg-light align-self-center">
+                            <Image src={fhlHealth} fluid></Image>
+                        </Col>
+                        <Col sm={{ span: 8, offset: 1 }}>
+                            <h4>FHL Health, LLC</h4>
+                            <h5>Project Management Intern</h5>
+                            <h6>Bethesda, MD &nbsp; |  &nbsp; May 2019 - Sep 2019</h6>
+                            <p>
+                                As a project management intern at FHL Health, I managed two clinical studies and the development of
+                                one internal product. For the two clinical studies, I managed a team of  programmers
+                                to develop and compile complete clinical trial submission packages for the FDA under budget.
+                                Furthermore, I coordinated and managed the development of an internal automated case report form generator
+                                that decreased generation times by 300%. I also prepared and presented 2 RFQs that provided price
+                                estimations and project phases which resulted in over $300,000 worth of contracts.
 
-                                </p>
-                            </Col>
-                        </Row>
-                    </Container>
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
 
-                    <Container id="" className="bg-light">
-                        <Row>
-                            <Col sm={4} className="h-100 bg-light align-self-center">
-                                <Image src={essentialSoft} fluid></Image>
-                            </Col>
-                            <Col sm={8} className="my-auto detail">
-                                <h4>Essential Software, Inc.</h4>
-                                <h5>Software Engineering Intern</h5>
-                                <h6>Rockville, MD &nbsp; |  &nbsp; Jun 2018 - Aug 2018</h6>
-                                <p>
-                                    As a software engineering intern at Essential Software, I developed a database management
-                                    system that provides scientists with simple access to 8,000+ knowledge articles. I implemented
-                                    a mySQL database with a ServiceNow instance that automates the workflow of each database submission
-                                    to improve user communication and provide a straightforward process for scientists to review and
-                                    publish various knowledge articles.
-                                </p>
-                            </Col>
-                        </Row>
-                    </Container>
+                <Container id="" className="bg-light">
+                    <Row>
+                        <Col className="h-100 bg-light align-self-center">
+                            <Image src={essentialSoft} fluid></Image>
+                        </Col>
+                        <Col sm={{ span: 8, offset: 1 }}>
+                            <h4>Essential Software, Inc.</h4>
+                            <h5>Software Engineering Intern</h5>
+                            <h6>Rockville, MD &nbsp; |  &nbsp; Jun 2018 - Aug 2018</h6>
+                            <p>
+                                As a software engineering intern at Essential Software, I developed a database management
+                                system that provides scientists with simple access to 8,000+ knowledge articles. I implemented
+                                a mySQL database with a ServiceNow instance that automates the workflow of each database submission
+                                to improve user communication and provide a straightforward process for scientists to review and
+                                publish various knowledge articles.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
 
-                    <Container id="" className="bg-light">
-                        <Row>
-                            <Col sm={4} className="h-100 bg-light align-self-center">
-                                <Image src={ipsos} fluid></Image>
-                            </Col>
-                            <Col sm={8} className="my-auto detail">
-                                <h4>Ipsos</h4>
-                                <h5>Marketing Analyst Intern</h5>
-                                <h6>Shanghai, CN &nbsp; |  &nbsp; Jun 2017 - Aug 2017</h6>
-                                <p>
-                                    As a marketing analyst intern at Ipsos, I analyzed data from a focus group study on
-                                    a client's telematic system that resulted in the change of 10 of its feature definitions.
-                                    In addition, I prepared and presented an alysis report on telematic systems by drawing
-                                    comparisons between competing products based on its features, unique qualities, prices,
-                                    and preferences; allowing the client to optimize its offerings relative to its competitors.
-                                </p>
-                            </Col>
-                        </Row>
-                    </Container>
+                <Container id="" className="bg-light">
+                    <Row>
+                        <Col className="h-100 bg-light align-self-center">
+                            <Image src={ipsos} fluid></Image>
+                        </Col>
+                        <Col sm={{ span: 8, offset: 1 }}>
+                            <h4>Ipsos</h4>
+                            <h5>Marketing Analyst Intern</h5>
+                            <h6>Shanghai, CN &nbsp; |  &nbsp; Jun 2017 - Aug 2017</h6>
+                            <p>
+                                As a marketing analyst intern at Ipsos, I analyzed data from a focus group study on
+                                a client's telematic system that resulted in the change of 10 of its feature definitions.
+                                In addition, I prepared and presented an alysis report on telematic systems by drawing
+                                comparisons between competing products based on its features, unique qualities, prices,
+                                and preferences; allowing the client to optimize its offerings relative to its competitors.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
 
-                    <Container id="" className="bg-light">
-                        <Row>
-                            <Col sm={4} className="h-100 bg-light align-self-center">
-                                <Image src={nih} fluid></Image>
-                            </Col>
-                            <Col sm={8} className="my-auto detail">
-                                <h4>National Institutes of Health</h4>
-                                <h5>Database Administrator Intern</h5>
-                                <h6>Bethesda, MD &nbsp; |  &nbsp; Jun 2016 - Aug 2016</h6>
-                                <p>
-                                    As a database administrator intern at NIH, I transformed and implemented a user-friendly
-                                    genome browser to facilitate efficient access to various genomic data sets, providing scientists
-                                    with more features and customizations leading to a 250% increase in analysis capability and efficiency.
-                                </p>
-                            </Col>
-                        </Row>
-                    </Container>
+                <Container id="" className="bg-light">
+                    <Row>
+                        <Col className="h-100 bg-light align-self-center">
+                            <Image src={nih} fluid></Image>
+                        </Col>
+                        <Col sm={{ span: 8, offset: 1 }}>
+                            <h4>National Institutes of Health</h4>
+                            <h5>Database Administrator Intern</h5>
+                            <h6>Bethesda, MD &nbsp; |  &nbsp; Jun 2016 - Aug 2016</h6>
+                            <p>
+                                As a database administrator intern at NIH, I transformed and implemented a user-friendly
+                                genome browser to facilitate efficient access to various genomic data sets, providing scientists
+                                with more features and customizations leading to a 250% increase in analysis capability and efficiency.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
 
-                    <Container>
+                <Container>
 
-                    </Container>
+                </Container>
 
                 </body>
 
@@ -248,10 +248,10 @@ export default class Resume extends Component {
 
                     <Container className="school">
                         <Row>
-                            <Col sm={4} className="h-100 school align-self-center">
+                            <Col className="h-100 school align-self-center">
                                 <Image src={nyuStern} fluid></Image>
                             </Col>
-                            <Col sm={8} className="my-auto detail">
+                            <Col sm={{ span: 8, offset: 1 }}>
                                 <h4>New York University, Stern School of Business</h4>
                                 <h6>New York, NY &nbsp; |  &nbsp; Class of 2021</h6>
                                 <h7>Bachelor of Science in Business</h7>

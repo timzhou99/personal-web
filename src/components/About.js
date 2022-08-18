@@ -88,6 +88,10 @@ const Styles = styled.div`
     .connect {
       padding-bottom: 10vh;
     }
+
+    p {
+        font-size: 20px;
+    }
 `;
 
 export default class About extends Component {
@@ -122,7 +126,7 @@ export default class About extends Component {
                     <Container id="about-me" className="bg-light">
 
                         <Row>
-                            <Col className="text-left">
+                            <Col sm className="text-left">
                                 <h2>About Tim</h2>
                                 <br />
                                 <p>
@@ -149,7 +153,7 @@ export default class About extends Component {
                                 <br />
 
                             </Col>
-                            <Col>
+                            <Col sm>
                                 <br /> <br /> 
                                 <Image src={timZhou} fluid></Image>
                             </Col>

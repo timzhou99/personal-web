@@ -15,16 +15,13 @@ import projects from "../assets/img/projects.jpg";
 const Styles = styled.div`
 
     .jumbotron {
+        background-image: url(${projects});
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         text-align: center;
         height: 100vh;
         margin-bottom: 0;
-    }
-    
-    .main {
-        background-image: url(${projects});
     }
     
     .freetix {
@@ -40,8 +37,9 @@ const Styles = styled.div`
         font-weight: bold;
         text-align: center;
         color: aliceblue;
-        min-height: 30vh;
+        min-height: 50vh;
         width: 100%;
+        padding-top: 10vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -72,14 +70,15 @@ const Styles = styled.div`
         font-size: 2.5vh;
     }
     
-      .arrow-down {
+    .arrow-down {
         color: aliceblue;
         font-size: 300%;
         text-align: center;
-      }
+    }
 
     .container {
-      padding-top: 10vh;
+        min-height: 10vh;
+        padding-top: 10vh;
     }
     
     br {
@@ -109,7 +108,8 @@ const Styles = styled.div`
     }
     
     .jumButton {
-      margin-right: 1vw;
+        margin-right: 1vw;
+        margin-bottom: 20px;
     }
    
 `;
@@ -126,13 +126,11 @@ export default class Projects extends Component {
 
                 <NavigationBar/>
 
-                <Jumbotron className="jumbotron-fluid main">
+                <Jumbotron className="jumbotron-fluid">
 
                     <Fade bottom>
 
-                        <div className="header">
-                            <h1>here's what i've been up to</h1>
-                        </div>
+                        <h1 class="text-center">here's what i've been up to</h1>
 
                         <Link class="arrow-down link" to="most-recent" smooth={true}><FontAwesomeIcon icon={faArrowCircleDown}/></Link>
 

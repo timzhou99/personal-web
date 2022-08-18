@@ -137,7 +137,7 @@ export default class FlexBot extends Component {
                             <h2>A Queue Management Discord Bot</h2>
 
                             <Button className="jumButton" size="lg" variant="warning" href="https://github.com/timzhou99/flexbot" target="_blank">Source Code</Button>
-                            <Button size="lg" variant="success" href="https://discord.com/oauth2/authorize?client_id=755262389728837633&scope=bot&permissions=2147483647" target="_blank">Invite to Server</Button>
+                            <Button size="lg" variant="success" href="https://discord.com/oauth2/authorize?client_id=755262389728837633&scope=bot&permissions=2147483647" target="_blank" className="jumButton">Invite to Server</Button>
                         </div>
 
                         <Link class="arrow-down link" to="about" smooth={true}><FontAwesomeIcon icon={faArrowCircleDown}/></Link>

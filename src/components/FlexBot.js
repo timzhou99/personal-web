@@ -102,8 +102,9 @@ const Styles = styled.div`
     
     .jumButton {
     
-      margin-right: 1vw;
-    
+        margin-right: 1vw;
+        margin-bottom: 20px;
+
     }
     
     .codeHead {

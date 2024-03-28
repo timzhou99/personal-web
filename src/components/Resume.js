@@ -106,14 +106,26 @@ export default class Resume extends Component {
                         </Col>
                         <Col sm={{ span: 8, offset: 1 }}>
                             <h4>American Express</h4>
+                            <h5>Senior Associate Product Manager</h5>
+                            <h6>New York, NY &nbsp; |  &nbsp; Sep 2023 - Present</h6>
+                            <p>
+                                As a Senior Associate Product Manager on the International Application Experience team, I lead the decisioning orchestration for international card 
+                                applications across six global markets. I work closely with cross-functional teams to define and prioritize product features that drive the digital
+                                acquisition journey for our customers and prospects. In addition, I lead a team of 11 to facilitate iteration and innovation to provide the best user
+                                experience for our customer care professionals and prospective customers & applicants.
+                            </p>
+
+                            <br />
+
                             <h5>Associate Product Manager</h5>
-                            <h6>New York, NY &nbsp; |  &nbsp; Jun 2021 - Present</h6>
+                            <h6>New York, NY &nbsp; |  &nbsp; Jun 2021 - Sep 2023</h6>
                             <p>
                                 As an Associate Product Manager at American Express, I help discover, solution, and prioritize product features for the digital acquisition journeys
                                 in the United Kingdom and Norway, Consumer and Small Business markets. In addition, as a product owner, I lead an agile and data-driven team of 11 to 
                                 facilitate iteration and innovation to provide the best user experience for our customers and prospects.
                             </p>
                         </Col>
+                        
                     </Row>
                 </Container>
 

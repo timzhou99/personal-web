@@ -141,8 +141,11 @@ export default class FreeTix extends Component {
                             <h2>An Event Management and Ticketing Platform</h2>
 
                             <Button className="jumButton" size="lg" variant="warning" href="https://github.com/timzhou99/freetix-app" target="_blank">Source Code</Button>
-                            <Button size="lg" variant="success" href="https://freetix.herokuapp.com/" target="_blank" className="jumButton">Live Demo</Button>
+                            <Button size="lg" variant="success" href="https://freetix.timothyzhou.com" target="_blank" className="jumButton">Live Demo</Button>
+
                         </div>
+
+                        <div> <h2>Note: You may need to wait a minute for the live demo instance to start back up.</h2> </div>
 
                         <Link class="arrow-down link" to="about" smooth={true}><FontAwesomeIcon icon={faArrowCircleDown}/></Link>
 

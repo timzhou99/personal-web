@@ -16,6 +16,7 @@ import ipsos from '../assets/img/ipsos.png';
 import nih from '../assets/img/nih.png';
 import ncino from '../assets/img/ncino.png';
 import amex from '../assets/img/amex.png';
+import capone from '../assets/img/capital-one.png';
 
 const Styles = styled.div`
 
@@ -102,7 +103,7 @@ export default class Resume extends Component {
                 <Container id="" className="bg-light">
                     <Row>
                         <Col className="h-100 bg-light align-self-center">
-                            <Image src={ncino} fluid></Image>
+                            <Image src={capone} fluid></Image>
                         </Col>
                         <Col sm={{ span: 8, offset: 1 }}>
                             <h4>Capital One</h4>

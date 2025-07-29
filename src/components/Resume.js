@@ -100,7 +100,7 @@ export default class Resume extends Component {
 
                 <body className="bg-light">
 
-                <Container id="" className="bg-light">
+                <Container id="latest-experience" className="bg-light">
                     <Row>
                         <Col className="h-100 bg-light align-self-center">
                             <Image src={capone} fluid></Image>
@@ -119,7 +119,7 @@ export default class Resume extends Component {
                     </Row>
                 </Container>
 
-                <Container id="latest-experience" className="bg-light">
+                <Container id="" className="bg-light">
                     <Row>
                         <Col className="h-100 bg-light align-self-center">
                             <Image src={amex} fluid></Image>
